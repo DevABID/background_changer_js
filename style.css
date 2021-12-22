@@ -1,0 +1,20 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	min-height: 100vh;
+	transition: background 0.2s linear;
+}
+
+#btn {
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 8px 8px;
+  border-radius: 6px;
+}
